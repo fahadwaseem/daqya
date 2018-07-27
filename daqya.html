@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- theme made by www.w3schools.com - no copyright -->
+	<title>Daqya</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="daqyaStyle.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<div class="container-fluid" style="padding: 0px 0px 0px 0px;">
+
+		<div id="mycarousel" class="carousel slide" data-ride="carousel">
+			<!-- indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#mycarousel" data-slide-to="1"></li>
+				<li data-target="#mycarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active img1">
+					<div class="row" style="padding-top:15%;color: white;">
+						<div id="text1" class="intro-text col-md-5">
+							<center><p style="font-size:30px;">Make my trip<br>cheaper.</p></center>
+							<center><a id="take" class="page-scroll btn btn-x2" data-toggle="modal" data-target="#myModal">Take a Parcel</a></center>
+						</div>
+						<div class="col-md-2">
+							<center>
+								<div class="line"></div>
+							</center>
+						</div>
+						<div id="text1" class="intro-text col-md-5">
+							<center><p style="font-size: 30px;">Help me send.</p><br><br></center>
+							<center><a id="take" class="page-scroll btn btn-x2">Send a Parcel</a></center>
+						</div>
+					</div>					
+				</div>
+
+				<div class="item img1">
+					<div class="row" style="padding-top:15%;color: white;">
+						<div id="text1" class="intro-text col-md-5">
+							<p style="font-size: 30px;">Make my trip<br>cheaper.</p>
+							<a id="take" class="page-scroll btn btn-x2" data-toggle="modal" data-target="#myModal">Take a Parcel</a>
+						</div>
+						<div class="col-md-2">
+							<center>
+								<div class="line"></div>
+							</center>
+						</div>
+						<div id="text1" class="intro-text col-md-5">
+							<p style="font-size: 30px;">Help me send.</p><br><br>
+							<a id="take" class="page-scroll btn btn-x2">Send a Parcel</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="item img1">
+					<div class="row" style="padding-top:15%;color: white;">
+						<div id="text1" class="intro-text col-md-5">
+							<p style="font-size: 30px;">Make my trip<br>cheaper.</p>
+							<a id="take" class="page-scroll btn btn-x2" data-toggle="modal" data-target="#myModal">Take a Parcel</a>
+						</div>
+						<div class="col-md-2">
+							<center>
+								<div class="line"></div>
+							</center>
+						</div>
+						<div id="text1" class="intro-text col-md-5">
+							<p style="font-size: 30px;">Help me send.</p><br><br>
+							<a id="take" class="page-scroll btn btn-x2">Send a Parcel</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- left and right controls -->
+			<a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="left: 10%"></span>
+				<span class="sr-only">previous</span>
+			</a>
+			<a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="right: 10%"></span>
+				<span class="sr-only">next</span>
+			</a>
+		</div>
+
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" id="logoLink" href="#"><img src="img/Daqya-Logo.png" class="img-header" id="logo"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a id="headText" href="#">About</a></li>
+						<li><a id="headText" href="#">Features</a></li>
+						<li><a id="headText" href="#">Sign in</a></li>
+						<li><a id="headText" href="#">Sign up</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<section id="second">
+			<div id="box2" class="row">
+				<div class="col-md-3 col-sm-3">
+					<center>
+						<div class="fa fa-laptop fa-5x"></div><br><br>
+						<p id="num">1.</p>
+						<p>Lorem ipsum<br>dolor sit<br>amet</p>
+					</center>
+				</div>
+				<div class="col-md-3 col-sm-3">
+					<center>
+						<div class="fa fa-gift fa-5x"></div><br><br>
+						<p id="num">2.</p>
+						<p>Lorem ipsum<br>dolor sit<br>amet</p>
+					</center>
+				</div>
+				<div class="col-md-3 col-sm-3">
+					<center>
+						<div class="fa fa-paper-plane-o fa-5x"></div><br><br>
+						<p id="num">3.</p>
+						<p>Lorem ipsum<br>dolor sit<br>amet</p>
+					</center>
+				</div>
+				<div class="col-md-3 col-sm-3">
+					<center>
+						<div class="fa fa-map-marker fa-5x"></div><br><br>
+						<p id="num">4.</p>
+						<p>Lorem ipsum<br>dolor sit<br>amet</p>
+					</center>
+				</div>
+			</div>
+		</section>
+	</div>
+	<section id="third" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<p>Upcoming Travels</p>
+				<img style="width: 100%;" src="img/map.png">
+			</div>
+		</div>
+	</section>
+
+	<section id="fourth" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<p id="p1">Blogs</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3">
+				<div class="panel panel-default img2" style="height:500px;min-width: 340px;">
+					<h1 style="color: white;padding-top: 5%;padding-bottom: 10%; padding-left: 5%;padding-right: 5%;">Lorel ipsum dolor sit amet</h1>
+					<center><p id="p2" style="font-size: 20px; color: white;padding-top: 5%;padding-bottom: 5%; padding-left: 5%;padding-right: 5%;">Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints Lots of text here...With the four tiers of grids available you're bound to run</p></center>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-6">
+				<div class="panel panel-default" style="padding:0px 0px 0px 0px;border:none;">
+					<div class="container-fluid" style="padding:0px 0px 0px 0px">
+						<div class="row" style="padding:0px 0px 0px 0px">
+							<div class="col-md-12">
+								<div class="panel panel-default img2" style="height:240px;">
+									<h1 style="color: white;padding-top: 1%;padding-left: 5%;padding-right: 5%;">Lorel ipsum dolor sit amet</h1>
+									<p id="p3" style="font-size: 20px; color: white;padding-top: 1%;padding-bottom: 5%; padding-left: 5%;padding-right: 5%;">Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints Lots of text here...With the four tiers of grids available you're bound to run</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="row" style="padding:0px 0px 0px 0px">
+							<div class="col-md-12">
+								<div class="panel panel-default img2" style="height:240px;margin-bottom: 0px;">
+									<h1 style="color: white;padding-top: 1%;padding-left: 5%;padding-right: 5%;">Lorel ipsum dolor sit amet</h1>
+									<p id="p3" style="font-size: 20px; color: white;padding-top: 1%;padding-bottom: 5%; padding-left: 5%;padding-right: 5%;">Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints Lots of text here...With the four tiers of grids available you're bound to run</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>			
+		</div>
+	</section>
+
+	<section id="testimonial">
+		<p>Testimonials</p>
+	</section>
+
+	<section id="band" class="container">
+		<center>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-sm-1">
+					<br>
+					<br>
+					<img id="cimage" src="img/image1.jpg" class="img-circle" alt="Random Name" width="100" height="100">
+				</div>
+				<div class="col-sm-2">
+					<p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints</p>
+					<br>
+					<p><strong>John Doe</strong></p><br>
+				</div>
+				<div class="col-sm-1 col-md-1"></div>
+				<div class="col-sm-1">
+					<br>
+					<br>
+					<img id="cimage" src="img/image1.jpg" class="img-circle" alt="Random Name" width="100" height="100">
+				</div>
+				<div class="col-sm-2">
+					<p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints</p>
+					<br>
+					<p><strong>John Doe</strong></p><br>
+				</div>
+				<div class="col-sm-1 col-md-1"></div>
+				<div class="col-sm-1">
+					<br>
+					<br>
+					<img id="cimage" src="img/image1.jpg" class="img-circle" alt="Random Name" width="100" height="100">
+				</div>
+				<div class="col-sm-2">
+					<p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints</p>
+					<br>
+					<p><strong>John Doe</strong></p><br>
+				</div>	
+			</div>
+		</center>
+	</section>
+
+	<section>
+		<div id="empty">
+		</div>
+	</section>
+
+	<section class="container">
+		<div id="raised" class="row">
+			<center>
+				<div class="col-sm-3 col-md-3 col-md-offset-3">
+					<img src="img/hand.png">
+				</div>
+				<div class="col-sm-3 col-md-3">
+					<p id="charity">$500</p>
+					<p id="charityText">raised for charity through<br>our organization</p><br>
+					<a href="#" id="lm">Learn more...</a>
+				</div>
+			</center>
+		</div>
+	</section>
+
+	<section>
+		<div id="logos">
+			<center>
+				<p>Featured On</p>
+			</center>
+		</div>
+	</section>
+	<footer class="container-fluid">
+		<div id="bottom">
+			<center>
+				<label>Newsletter:</label>
+				<input type="text" name="email" placeholder="E-mail address">
+				<button>Subcribe</button>
+			</center>
+		</div>
+		<center>
+			<div id="countries" class="row">
+				<div class="col-md-2 col-md-offset-3 col-sm-2">
+					<p>Pakistan<br>India<br>Indonesia<br>USA<br>United Kingdom<br>France</p>
+				</div>
+				<div class="col-md-2 col-sm-3">
+					<p>Pakistan<br>India<br>Indonesia<br>USA<br>United Kingdom<br>France</p>
+				</div>
+				<div class="col-md-2 col-sm-3">
+					<p>Pakistan<br>India<br>Indonesia<br>USA<br>United Kingdom<br>France</p>
+				</div>
+			</div>
+		</center>
+		<div class="row">
+			<p id="address">Building No. 744,Abu al Hassan Ashfani Road,<br>Faisal Town, Lahore.<br><br>(+92) 991 5555555</p>
+		</div>
+	</footer>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="fa fa-times-circle-o fa-2x pull-right" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+        <div class="modal-body" id="myWizard">
+        <form action="" method="">
+         <div class="tab-content">
+            <div class="tab-pane fade in active" id="step1">
+              <h3 id="myModalLabel"><center id="modalh1">Add a title and description to your post</center></h3>    
+              <center> 
+                  <input type="text" name="title" id="title" placeholder="Add Title">
+              </center>
+              <br>
+              <center>
+                  <textarea name="description" id="description" placeholder="Add Description"></textarea>
+              </center>
+              <a href="#step2" class="btn btn-default pull-right glyphicon glyphicon-chevron-right" data-toggle="tab" data-step="2">Next</a><br><br><br>
+            </div>
+            <div class="tab-pane fade" id="step2">
+               <h3 id="myModalLabel"><center id="modalh2">What can you carry?</center></h3>    
+              <center> 
+                  <select id="category">
+                    <option value="" disabled selected>Choose Category</option>
+                    <option value="">school?</option>
+                    <option value="">name?</option>
+                    <option value="">model?</option>
+                  </select>
+              </center>
+                  <br>
+              <center>
+                  <input type="text" name="weight" id="weight" placeholder="Max Weight">
+              </center>
+               <a href="#step1" class="btn btn-default glyphicon glyphicon-chevron-left" data-toggle="tab" data-step="1">Prev</a><a href="#step3" class="btn btn-default glyphicon glyphicon-chevron-right pull-right" data-toggle="tab" data-step="2">Next</a>
+            </div>
+            <div class="tab-pane fade" id="step3">
+              <h3 id="myModalLabel"><center id="modalh1">Add Travel Details</center></h3>    
+              <center> 
+                  <input type="text" name="destination" id="to" placeholder="Travelling to">
+                  <input type="text" name="origin" id="from" placeholder="Travelling from">
+              </center>
+              <br>
+              <center> 
+                  <input type="text" name="flightNumber" id="flightNumber" placeholder="Add Flight Number">
+              </center>
+              <br>
+              <center>
+                  <textarea name="flightDes" id="flightDes" placeholder="Add Description"></textarea>
+              </center>
+               <a href="#step2" class="btn btn-default glyphicon glyphicon-chevron-left" data-toggle="tab" data-step="2">Prev</a><a href="#step4" class="btn btn-default glyphicon glyphicon-chevron-right pull-right" data-toggle="tab" data-step="3">Next</a>
+            </div>
+            <div class="tab-pane fade" id="step4">
+              <div class="well"> <h2>Step 4</h2> You're Done!</div>
+               <a href="#step3" class="btn btn-default glyphicon glyphicon-chevron-left" data-toggle="tab" data-step="3">Prev</a><a href="#" class="btn btn-default pull-right" data-dismiss="modal" data-step="4">Finish</a>
+            </div>
+         </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){       
+		var scroll_start = 0;
+		var startchange = $('#second');
+		var offset = startchange.offset();
+		$(document).scroll(function() { 
+			scroll_start = $(this).scrollTop();
+			if(scroll_start > offset.top) {
+				$('#navbar').css('background-color', 'black');
+			} else {
+				$('#navbar').css('background-color', 'transparent');
+			}
+		});
+	});
+</script>
+</body>

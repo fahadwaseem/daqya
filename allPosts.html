@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- theme made by www.w3schools.com - no copyright -->
+	<title>Daqya</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/daqyaStyle.css" rel="stylesheet" type="text/css">
+
+</head>
+<body style="overflow-x:hidden;" id="allpostbody">
+
+	<div class="container-fluid" style="padding: 0px 0px 0px 0px;">
+		<div class="item active imgallpost">
+			<div class="row" style="padding-top:7%;color: white;">
+				<div id="text1" class="intro-text col-md-12 col-sm-12">
+					<center>
+						<p style="font-size: 38px;margin-top: 14%;font-weight: bold;">Search Travels</p>
+					</center>
+				</div>
+			</div>
+				
+		</div>
+
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" id="logoLinkindex" href="#"><img src="img/indexlogo.png" class="img-header1"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="mynavbarindex">
+					<ul class="nav navbar-nav navbar-right navindex">
+						<li><a id="headText" href="#">About</a></li>
+						<li><a id="headText" href="#">Features</a></li>
+						<li><a id="headText" href="#">Sign in</a></li>
+						<li><a id="headText" href="#">Sign up</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container-fluid" style="padding: 0px 0px 0px 0px;" id="allpostcontent">
+
+		<div class="row">
+			<div class="col-md-1 col-sm-1"></div>
+			<div class="col-md-10 col-sm-10">
+			  <ul class="nav nav-tabs allpostnav">
+			    <li class="active"><a href="#all">All</a></li>
+			    <li><a href="#clothes">Clothes</a></li>
+			    <li><a href="#electronics">Electronics</a></li>
+			  </ul>
+			</div>
+			<div class="col-md-1 col-sm-1"></div>
+		</div>
+			<div class="row">
+			<div class="col-md-1 col-sm-1"></div>
+			<div class="col-md-10 col-sm-10" style="padding-top:2%;padding-bottom:2%;">
+				<form method=""  action="">
+					<center>
+					<select name="cat" id="formText">
+						<option value="" disabled selected>Categories</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+					</select>
+					<select name="to" id="formText">
+						<option value="" disabled selected>Traveling to</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+					</select>
+					<select name="from" id="formText">
+						<option value="" disabled selected>Traveling from</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+					</select>
+					<input type="text" name="date" id="formdate" placeholder="Date">
+					<input type="text" name="price" id="formprice" placeholder="Price">
+					<input type="submit" name="Search" id="btn" value="Search">
+					</center>
+				</form>
+			</div>
+			<div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1"></div>
+		</div>		
+	</div>
+
+	<div class="container-fluid allpostpanel" id="all">
+		<div class="panel panel-default allpostpanelcontent">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<div class="row">
+					<div class="col-md-1 col-sm-1" style="padding-left:5%;padding-right:10%; margin-top: 1%;"><br><center><img src="img/image1.jpg" class="img-circle" width="85" height="85"></center></div>
+					<div class="col-md-3 col-sm-3" style="padding-left: 3%;"><h3 class="user" style="margin-top: 16%; font-weight: bold;">John Doe</h3><p class="user" style="margin-bottom: 0px;margin-top:10%;font-weight: bold;">someone@example.com</p><p class="user" style="font-weight: bold;">+92 321 4142684</p></div>
+					<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"></div>
+					<div class="col-md-4 col-sm-4">
+						<fieldset class="rating" style="margin-top: -40%;">
+						    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+						    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+						    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+						    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+						    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+						    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+						    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+						    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+						    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+						    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+						</fieldset>
+              		</div>
+				</div>
+				<br><br><br><br><br>
+				<div class="row" style="padding-left: 5%;font-weight: bold;">
+					<div class="col-md-6 col-sm-6"><p>Traveling from</p><h2 id="allposttext" style="font-weight: bold;">Lahore, PK</h2></div>
+					<div class="col-md-6 col-sm-6"><p>Traveling to</p><h2 id="allposttext" style="font-weight: bold;">Dubai, UAE</h2></div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-sm-10"><h3 style="margin-left:6%;margin-bottom: 4%;">31<sup>st</sup> March 2017 - 2<sup>nd</sup> May 2017 (Tentative)</h3></div>
+					<div class="col-md-1 col-sm-1" style="padding-left:0px;"><center><span class="fa fa-mobile fa-3x"></span><br><p style="margin-left: -16%;">Electronics</p></center></div>
+					<div class="col-md-1 col-sm-1"><center><img src="img/shirt.png" height="38px" width="38px" style="margin-top:-1%"><p style="margin-top: 12%; margin-left: -12%;">Clothes</p></center></div>
+					<!--<span style="background:url(icons/shirt.png);"></span>-->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-default rightpanel" style="min-height:100%;margin-bottom:0px;">
+					<div class="panel-body panelbody"><iframe class="apmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462568.93464355526!2d54.947905702215756!3d25.074096003401515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1493302569524" width="385" height="331" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="panel-footer panelfooter" style="padding-bottom: 6%;"><div class="pull-right panelfootertext">$100.0</div><br></div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="panel panel-default allpostpanelcontent">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<div class="row">
+					<div class="col-md-1 col-sm-1" style="padding-left:5%;padding-right:10%; margin-top: 1%;"><br><center><img src="img/image1.jpg" class="img-circle" width="85" height="85"></center></div>
+					<div class="col-md-3 col-sm-3" style="padding-left: 3%;"><h3 class="user" style="margin-top: 16%; font-weight: bold;">John Doe</h3><p class="user" style="margin-bottom: 0px;margin-top:10%;font-weight: bold;">someone@example.com</p><p class="user" style="font-weight: bold;">+92 321 4142684</p></div>
+					<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"></div>
+					<div class="col-md-4 col-sm-4">
+						<fieldset class="rating" style="margin-top: -40%;">
+						    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+						    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+						    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+						    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+						    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+						    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+						    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+						    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+						    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+						    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+						</fieldset>
+              		</div>
+				</div>
+				<br><br><br><br><br>
+				<div class="row" style="padding-left: 5%;font-weight: bold;">
+					<div class="col-md-6 col-sm-6"><p>Traveling from</p><h2 id="allposttext" style="font-weight: bold;">Lahore, PK</h2></div>
+					<div class="col-md-6 col-sm-6"><p>Traveling to</p><h2 id="allposttext" style="font-weight: bold;">Dubai, UAE</h2></div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-sm-10"><h3 style="margin-left:6%;margin-bottom: 4%;">31<sup>st</sup> March 2017 - 2<sup>nd</sup> May 2017 (Tentative)</h3></div>
+					<div class="col-md-1 col-sm-1" style="padding-left:0px;"><center><span class="fa fa-mobile fa-3x"></span><br><p style="margin-left: -16%;">Electronics</p></center></div>
+					<div class="col-md-1 col-sm-1"><center><img src="img/shirt.png" height="38px" width="38px" style="margin-top:-1%"><p style="margin-top: 12%; margin-left: -12%;">Clothes</p></center></div>
+					<!--<span style="background:url(icons/shirt.png);"></span>-->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-default rightpanel" style="min-height:100%;margin-bottom:0px;">
+					<div class="panel-body panelbody"><iframe class="apmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462568.93464355526!2d54.947905702215756!3d25.074096003401515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1493302569524" width="385" height="331" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="panel-footer panelfooter" style="padding-bottom: 6%;"><div class="pull-right panelfootertext">$100.0</div><br></div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="panel panel-default allpostpanelcontent">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<div class="row">
+					<div class="col-md-1 col-sm-1" style="padding-left:5%;padding-right:10%; margin-top: 1%;"><br><center><img src="img/image1.jpg" class="img-circle" width="85" height="85"></center></div>
+					<div class="col-md-3 col-sm-3" style="padding-left: 3%;"><h3 class="user" style="margin-top: 16%; font-weight: bold;">John Doe</h3><p class="user" style="margin-bottom: 0px;margin-top:10%;font-weight: bold;">someone@example.com</p><p class="user" style="font-weight: bold;">+92 321 4142684</p></div>
+					<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"></div>
+					<div class="col-md-4 col-sm-4">
+						<fieldset class="rating" style="margin-top: -40%;">
+						    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+						    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+						    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+						    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+						    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+						    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+						    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+						    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+						    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+						    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+						</fieldset>
+              		</div>
+				</div>
+				<br><br><br><br><br>
+				<div class="row" style="padding-left: 5%;font-weight: bold;">
+					<div class="col-md-6 col-sm-6"><p>Traveling from</p><h2 id="allposttext" style="font-weight: bold;">Lahore, PK</h2></div>
+					<div class="col-md-6 col-sm-6"><p>Traveling to</p><h2 id="allposttext" style="font-weight: bold;">Dubai, UAE</h2></div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-sm-10"><h3 style="margin-left:6%;margin-bottom: 4%;">31<sup>st</sup> March 2017 - 2<sup>nd</sup> May 2017 (Tentative)</h3></div>
+					<div class="col-md-1 col-sm-1" style="padding-left:0px;"><center><span class="fa fa-mobile fa-3x"></span><br><p style="margin-left: -16%;">Electronics</p></center></div>
+					<div class="col-md-1 col-sm-1"><center><img src="img/shirt.png" height="38px" width="38px" style="margin-top:-1%"><p style="margin-top: 12%; margin-left: -12%;">Clothes</p></center></div>
+					<!--<span style="background:url(icons/shirt.png);"></span>-->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-default rightpanel" style="min-height:100%;margin-bottom:0px;">
+					<div class="panel-body panelbody"><iframe class="apmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462568.93464355526!2d54.947905702215756!3d25.074096003401515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1493302569524" width="385" height="331" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="panel-footer panelfooter" style="padding-bottom: 6%;"><div class="pull-right panelfootertext">$100.0</div><br></div>
+				</div>
+			</div>
+		</div>
+		</div>
+<div class="panel panel-default allpostpanelcontent">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<div class="row">
+					<div class="col-md-1 col-sm-1" style="padding-left:5%;padding-right:10%; margin-top: 1%;"><br><center><img src="img/image1.jpg" class="img-circle" width="85" height="85"></center></div>
+					<div class="col-md-3 col-sm-3" style="padding-left: 3%;"><h3 class="user" style="margin-top: 16%; font-weight: bold;">John Doe</h3><p class="user" style="margin-bottom: 0px;margin-top:10%;font-weight: bold;">someone@example.com</p><p class="user" style="font-weight: bold;">+92 321 4142684</p></div>
+					<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"></div>
+					<div class="col-md-4 col-sm-4">
+						<fieldset class="rating" style="margin-top: -40%;">
+						    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+						    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+						    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+						    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+						    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+						    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+						    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+						    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+						    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+						    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+						</fieldset>
+              		</div>
+				</div>
+				<br><br><br><br><br>
+				<div class="row" style="padding-left: 5%;font-weight: bold;">
+					<div class="col-md-6 col-sm-6"><p>Traveling from</p><h2 id="allposttext" style="font-weight: bold;">Lahore, PK</h2></div>
+					<div class="col-md-6 col-sm-6"><p>Traveling to</p><h2 id="allposttext" style="font-weight: bold;">Dubai, UAE</h2></div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-sm-10"><h3 style="margin-left:6%;margin-bottom: 4%;">31<sup>st</sup> March 2017 - 2<sup>nd</sup> May 2017 (Tentative)</h3></div>
+					<div class="col-md-1 col-sm-1" style="padding-left:0px;"><center><span class="fa fa-mobile fa-3x"></span><br><p style="margin-left: -16%;">Electronics</p></center></div>
+					<div class="col-md-1 col-sm-1"><center><img src="img/shirt.png" height="38px" width="38px" style="margin-top:-1%"><p style="margin-top: 12%; margin-left: -12%;">Clothes</p></center></div>
+					<!--<span style="background:url(icons/shirt.png);"></span>-->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-default rightpanel" style="min-height:100%;margin-bottom:0px;">
+					<div class="panel-body panelbody"><iframe class="apmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462568.93464355526!2d54.947905702215756!3d25.074096003401515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai+-+United+Arab+Emirates!5e0!3m2!1sen!2s!4v1493302569524" width="385" height="331" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="panel-footer panelfooter" style="padding-bottom: 6%;"><div class="pull-right panelfootertext">$100.0</div><br></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" style="padding: 0px 0px 0px 0px;">
+		<div id="text-box">
+			<a id="footertext" href="#">Home.</a>
+			<a id="footertext" href="#">About us.</a>
+			<a id="footertext" href="#">FAQs</a>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+<script type="text/javascript">
+	$(document).ready(function(){       
+		var scroll_start = 0;
+		var startchange = $('#allpostcontent');
+		var offset = startchange.offset();
+		$(document).scroll(function() { 
+			scroll_start = $(this).scrollTop();
+			if(scroll_start > offset.top) {
+				$('#navbar').css('background-color', 'black');
+			} else {
+				$('#navbar').css('background-color', 'transparent');
+			}
+		});
+	});
+</script>
+</body>
